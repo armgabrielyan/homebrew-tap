@@ -5,7 +5,7 @@ class Deadbranch < Formula
   desc "Clean up stale git branches safely"
   homepage "https://github.com/armgabrielyan/deadbranch"
   license "MIT"
-  version "0.1.1"
+  version "0.1.2"
 
   # Binary releases for different platforms
   on_macos do
