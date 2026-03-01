@@ -5,13 +5,13 @@ This is the official Homebrew tap for [deadbranch](https://github.com/armgabriel
 ## Installation
 
 ```bash
-brew install armgabrielyan/deadbranch/deadbranch
+brew install armgabrielyan/tap/deadbranch
 ```
 
 Or add the tap first:
 
 ```bash
-brew tap armgabrielyan/deadbranch
+brew tap armgabrielyan/tap
 brew install deadbranch
 ```
 
@@ -20,7 +20,7 @@ brew install deadbranch
 To build from the latest source code:
 
 ```bash
-brew install --HEAD armgabrielyan/deadbranch/deadbranch
+brew install --HEAD armgabrielyan/tap/deadbranch
 ```
 
 ## Usage
