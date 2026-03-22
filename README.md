@@ -1,46 +1,31 @@
-# Homebrew Tap for deadbranch
+# Homebrew Tap for armgabrielyan CLI tools
 
-This is the official Homebrew tap for [deadbranch](https://github.com/armgabrielyan/deadbranch) — a CLI tool to clean up stale git branches safely.
+This tap publishes Homebrew formulas for the CLI tools maintained under `armgabrielyan`.
 
 ## Installation
 
 ```bash
-brew install armgabrielyan/tap/deadbranch
+brew tap armgabrielyan/tap
 ```
 
-Or add the tap first:
+Then install any formula from the tap:
 
 ```bash
-brew tap armgabrielyan/tap
-brew install deadbranch
+brew install armgabrielyan/tap/<formula>
 ```
 
 ## Build from Source
 
-To build from the latest source code:
+To build the latest source version of a formula:
 
 ```bash
-brew install --HEAD armgabrielyan/tap/deadbranch
-```
-
-## Usage
-
-```bash
-# List stale branches (older than 30 days)
-deadbranch list
-
-# Preview what would be deleted
-deadbranch clean --dry-run
-
-# Delete merged stale branches
-deadbranch clean
+brew install --HEAD armgabrielyan/tap/<formula>
 ```
 
 ## More Information
 
-- [Main Repository](https://github.com/armgabrielyan/deadbranch)
-- [Documentation](https://github.com/armgabrielyan/deadbranch#readme)
-- [Releases](https://github.com/armgabrielyan/deadbranch/releases)
+- Browse formulas in the [`Formula/`](./Formula) directory.
+- Each formula points to its upstream repository and release artifacts.
 
 ## License
 
