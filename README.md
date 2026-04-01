@@ -14,6 +14,20 @@ Then install any formula from the tap:
 brew install armgabrielyan/tap/<formula>
 ```
 
+## Available Formulas
+
+- `autoloop`: agent-agnostic iterative optimization CLI
+- `deadbranch`: clean up stale git branches safely
+- `primer`: AI-guided project recipes and milestone workflows
+
+Examples:
+
+```bash
+brew install armgabrielyan/tap/autoloop
+brew install armgabrielyan/tap/deadbranch
+brew install armgabrielyan/tap/primer
+```
+
 ## Build from Source
 
 To build the latest source version of a formula:
